@@ -15,7 +15,7 @@ class ModelManager:
         # Model IDs
         self.asr_model_id = "openai/whisper-small" # "facebook/wav2vec2-large-960h-lv60-self"
         self.translator_model_id = "seongs/ke-t5-base-aihub-koen-translation-integrated-10m-en-to-ko" # "Helsinki-NLP/opus-mt-tc-big-en-ko"
-        self.tts_model_id = "" # "facebook/mms-tts-kor"
+        self.tts_model_id = "facebook/mms-tts-kor" # "facebook/mms-tts-kor"
         
     def load_models(self):
         """Load all required models with caching support"""
